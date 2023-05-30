@@ -1,5 +1,5 @@
 # bq-schema-comparator
-Compare the schemas between many BigQuery tables
+Compare the table schemas between many BigQuery tables
 
 ## Description (The problem)
 We have multiple datasets in BigQuery that receive data from various sources, such as AWS and GCP. These datasets have identical table names. How can we efficiently check the schemas of these tables in a short period of time without manual intervention?
