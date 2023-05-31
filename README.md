@@ -53,7 +53,7 @@ tableN_schema = get_table_schema('project_id', 'dataset_id', tableN_name)
 # You can write your own comparison logic here based on your requirements
 if table1_schema == table2_schema and table2_schema == tableN_schema:
     print("All table schemas are identical.")
-    print(table1_schema) # To see the schema in details!
+    print(table1_schema) # To see the schema in detail!
 else:
     print("Table schemas have differences.")
 ```
